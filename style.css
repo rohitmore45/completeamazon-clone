@@ -250,7 +250,7 @@
 
 /* hero secton or content area */
 .hero-sec {
-  background-image: url(./assets/images/hero_image.jpg);
+  background-image: url(./assets/images/books.jpg);
   display: flex;
   /* width: 100vw; */
   height: 360px;
