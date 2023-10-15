@@ -49,7 +49,6 @@
 .nav-search {
   display: flex;
   justify-content: space-evenly;
-  /* background-color: pink; */
   width: 600px;
   height: 40px;
   border-radius: 4px;
@@ -70,6 +69,7 @@
 .search-input {
   width: 100%;
   border: none;
+  outline: none;
   font-size: 0.9rem;
   font-weight: 500;
 }
@@ -383,8 +383,8 @@
   background-image: url(./assets/images/item8.jpg);
 }
 .items-list .image:hover {
-  transform: scale(1.1);
-  transition: all 1s ease-in;
+  transform: scale(1.02);
+  transition: all 0.1s ;
 }
 
 /* footer */
